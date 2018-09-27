@@ -12,7 +12,7 @@ import reducers from "./reducers";
 import './styles.css';
 import App from './app';
 
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
@@ -22,4 +22,4 @@ render(
   </Provider>,
   document.getElementById("root")
 );
-// registerServiceWorker();
+registerServiceWorker();

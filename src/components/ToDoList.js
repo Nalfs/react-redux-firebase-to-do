@@ -56,11 +56,6 @@ class ToDoList extends Component {
     }
     return (
       <div className="col s10 offset-s1 center-align">
-        <img
-          alt="Nothing was found"
-          id="nothing-was-found"
-          src="/img/nothing.png"
-        />
         <h4>You have completed all the tasks</h4>
         <p>Start by clicking add button in the bottom of the screen</p>
       </div>
